@@ -1,7 +1,7 @@
 .adverstisement-container {
     background-color: #0c0c0c;
-    background-image: url(../img/advertisement/adv-bg-mobile.jpg);
-    max-width: 335px;
+    background-image: url(./img/advertisement/adv-bg-mobile.webp);
+    max-width: 280px;
     border-radius: 30px;   
 }
 .visually-hidden {
@@ -22,6 +22,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb; 
+    padding: 60px 28px;
 }
 .adv-button-link {
     font-weight: 500;
@@ -45,3 +46,34 @@
     background-color: #fbfbfb;
     color: #0c0c0c;
  } 
+ @media screen and ( min-width: 375px) {
+    .adverstisement-container {  
+        max-width: 335px;                 
+    }
+ }
+ @media screen and ( min-width: 768px) {
+    .adverstisement-container {        
+        background-image: url(./img/advertisement/adv-bg-tablet.webp);
+        max-width: 704px;    
+    }
+    .adverstisement-dscr {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+        margin-bottom: 32px;
+        padding: 80px 64px;     
+    }
+}
+ 
+ @media screen and ( min-width: 1280px) {
+    .adverstisement-container {        
+        background-image: url(./img/advertisement/adv-bg-desctop.webp);
+        max-width: 1150px;  
+        display: flex; 
+        flex-direction: row;   
+        gap: 140px;
+    } 
+    .adverstisement-dscr {          
+        padding: 83px 80px;
+    }   
+ }
