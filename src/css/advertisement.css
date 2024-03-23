@@ -25,6 +25,7 @@
     letter-spacing: -0.02em;
     color: #fbfbfb; 
     margin-bottom: 28px;
+    
 }
 .adv-button-link {
     font-weight: 500;
@@ -46,7 +47,11 @@
     background-color: #fbfbfb;
     color: #0c0c0c;
  } 
- 
+ @media screen and ( min-width: 375px) {
+    .adverstisement-dscr {
+        height: 167px; 
+    }
+ }
  @media screen and ( min-width: 768px) {
     .adverstisement-container {        
         background-image: url(../img/advertisement/adv-bg-tablet.webp);
@@ -58,7 +63,8 @@
         font-weight: 600;
         font-size: 48px;
         line-height: 0.91667;
-        margin-bottom: 32px;            
+        margin-bottom: 32px; 
+        height: 185px;         
     }
 }
  
