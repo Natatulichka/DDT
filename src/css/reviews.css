@@ -68,6 +68,7 @@
     
                 .reviews-list-item,
         .reviews-list-item-part {
+            display: flex;
             border-radius: 30px;
                 padding: 32px 36px;
                 width: 344px;
