@@ -25,7 +25,6 @@
               alt="Watch-mini-1"
               width="52"
               height="54"
-              onclick="document.getElementById('mainImage').src = './img/sale/watch-mini-1-mobile.webp'"
             />
           </picture>
 
@@ -51,7 +50,6 @@
                 alt="Watch-mini-2"
                 width="52"
                 height="54"
-                onclick="document.getElementById('mainImage').src = './img/sale/watch-mini-2-mobile.webp'"
               />
             </picture>
           </div>
@@ -77,7 +75,6 @@
                 alt="Watch-mini-3"
                 width="52"
                 height="54"
-                onclick="document.getElementById('mainImage').src = './img/sale/watch-mini-3-mobile.webp'"
               />
             </picture>
           </div>
@@ -103,19 +100,35 @@
                 alt="Watch-mini-4"
                 width="52"
                 height="54"
-                onclick="document.getElementById('mainImage').src = './img/sale/watch-mini-4-mobile.webp'"
               />
             </picture>
           </div>
+
           <div class="sale-preview-main">
-            <img
-              class="sale-preview-main-img"
-              src="./img/sale/watch-big-mobile.webp"
-              alt="Main Image"
-              width="235"
-              height="285"
-              id="mainImage"
-            />
+            <picture class="sale-preview-main-img">
+              <source
+                srcset="
+                  ./img/sale/watch-big-mobile.webp    1x,
+                  ./img/sale/watch-big-mobile@2x.webp 2x
+                "
+                media="(max-width:767px)"
+              />
+              <source
+                srcset="
+                  ./img/sale/watch-big-desktop.webp    1x,
+                  ./img/sale/watch-big-desktop@2x.webp 2x
+                "
+                media="(min-width:768px)"
+              />
+
+              <img
+                src="./img/sale/watch-big-mobile.webp"
+                alt="Watch-mini-4"
+                alt="Main Image"
+                width="235"
+                height="285"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -136,30 +149,12 @@
           screen is complemented by buttons that can be used in any conditions.
         </p>
         <div class="sale-descr-tags">
-          <a
-            fref="#fused-carbon-fiber"
-            class="sale-descr-tags-text"
-            target="_blank"
-            >Fused carbon fiber</a
-          >
-          <a
-            fref="#grade-5-titanium"
-            class="sale-descr-tags-text"
-            target="_blank"
-            >Grade-5 Titanuim</a
-          >
-          <a fref="#athlete" class="sale-descr-tags-text" target="_blank"
-            >Athlete</a
-          >
-          <a fref="#golfer" class="sale-descr-tags-text" target="_blank"
-            >Golfer</a
-          >
-          <a fref="#commander" class="sale-descr-tags-text" target="_blank"
-            >Commander</a
-          >
-          <a fref="#adventurer" class="sale-descr-tags-text" target="_blank"
-            >Adventurer</a
-          >
+          <a href="#" class="sale-descr-tags-text">Fused carbon fiber</a>
+          <a href="#" class="sale-descr-tags-text">Grade-5 Titanuim</a>
+          <a href="#" class="sale-descr-tags-text">Athlete</a>
+          <a href="#" class="sale-descr-tags-text">Golfer</a>
+          <a href="#" class="sale-descr-tags-text">Commander</a>
+          <a href="#" class="sale-descr-tags-text">Adventurer</a>
         </div>
       </div>
     </div>
