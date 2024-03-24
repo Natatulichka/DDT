@@ -1,0 +1,52 @@
+.hero-section {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 375px) {
+ .hero-container {
+    padding: 60px 20px 0px 20px;
+}
+
+.hero-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.hero-text-color {
+    color: #3350e9;
+}
+
+.hero-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-people {
+    display: flex;
+    justify-content: space-between;
+}
+.scroll-txt {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+}
+.hero-clock {
+    border-radius: 30px;
+    background-color:rgba(12, 12, 12, 0.2);
+}
+}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1280px) {}
