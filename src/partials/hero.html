@@ -11,15 +11,32 @@
         <div class="hero-people">
             <div class="hero-pic">
                 <picture>
-                    <source media="(max-wdth: 767px)"
-                        srcset="./img/hero/people-mobile.webp 1x, ./img/hero/people-mobile@2x.webp 2x" />
-                    <source media="(min-wdth: 1280px)" srcset="./img/hero/people-desktop.webp 1x, ./img/hero/people-desktop@2x.webp
-                2x" />
-                    <source media="(min-wdth: 768px)"
-                        srcset="./img/hero/people-tablet.webp 1x, ./img/hero/people-tablet@2x.webp 2x" />
+                    <source srcset="
+                                        ./img/hero/people-mobile.webp    1x,
+                                        ./img/hero/people-mobile@2x.webp 2x
+                                      " media="(max-width:767px)" />
+                    <source srcset="
+                                        ./img/hero/people-desktop.webp    1x,
+                                        ./img/hero/people-desktop@2x.webp 2x
+                                      " media="(min-width:1280px)" />
+                    <source srcset="
+                                        ./img/hero/people-tablet.webp    1x,
+                                        ./img/hero/people-tablet@2x.webp 2x
+                                      " media="(min-width:768px)" />
 
+                    <img src="./img/hero/people-desktop.webp" alt="watches" class="hero-people-icons" />
                 </picture>
-                <img src="./img/hero/people-desktop.webp " alt="People" />
+                <!-- <picture>
+                    <source srcset="./img/hero/people-mobile.webp 1x, ./img/hero/people-mobile@2x.webp 2x"
+                        media="(max-wdth: 767px)" />
+                    <source srcset="./img/hero/people-desktop.webp 1x, ./img/hero/people-desktop@2x.webp
+                2x" media="(min-wdth: 1280px)" />
+                    <source srcset="./img/hero/people-tablet.webp 1x, ./img/hero/people-tablet@2x.webp 2x"
+                        media="(min-wdth: 768px)" />
+                    <img src="./img/hero/people-desktop.webp " alt="People" />
+
+                </picture> -->
+
             </div>
             <div class="scroll-box">
                 <a href="#section1" class="scroll-to scroll-txt">Scroll down</a>
