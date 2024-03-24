@@ -3,17 +3,17 @@
     margin-right: auto;
 }
 @media screen and (min-width: 375px) {
- .hero-container {
+.hero-section {
     padding: 60px 20px 0px 20px;
 }
 
 .hero-title {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    margin-bottom: 20px;
 }
 
 .hero-text-color {
@@ -21,32 +21,83 @@
 }
 
 .hero-text {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 28px;
 }
 
 .hero-people {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 28px;
+}
+.hero-pic {
+    min-width: 108px;
+    min-height: 44px;
 }
 .scroll-txt {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
 }
-.hero-clock {
-    border-radius: 30px;
-    background-color:rgba(12, 12, 12, 0.2);
+.scroll-box {
+position: absolute;
+right: 0;
+bottom: 0;
 }
 }
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 768px) {
+.hero-section {
+    padding: 80px 32px 0px 32px;
+}
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-title {
+    max-width: 557px;
+    font-size: 70px;
+    line-height: 0.86;
+}
+.hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+}
+.hero-people {
+    min-width: 136px;
+    flex-wrap: wrap;
+}
+.hero-pic {
+    min-width: 136px;
+    min-height: 60px;
+}
+.scroll-box {
+    margin-top: 0;
+}
+.hero-text {
+    max-width: 480px;
+}
+}
+@media screen and (min-width: 1280px) {
+.hero-section {
+    padding: 80px 65px 0px 65px;
+}
+.hero-title {
+    max-width: 597px;
+    font-size: 72px;
+    line-height: 0.88;
+}
+.hero-pic {
+    min-width: 146px;
+    min-height: 60px;
+}
+}

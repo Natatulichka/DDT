@@ -1,36 +1,48 @@
 <section class="hero-section">
     <div class="hero-container">
-        <h1 class="hero-title">Welcome to our <span class="hero-text-color">collection</span> of premium watches</h1>
-        <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
-            lifestyle. From classic
-            designs to
-            modern ones, we have a watch to suit every taste and occasion.</p>
-    </div>
+        <div class="hero-container-txt">
+            <h1 class="hero-title">Welcome to our <span class="hero-text-color">collection</span> of premium watches
+            </h1>
+            <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
+                lifestyle. From classic
+                designs to
+                modern ones, we have a watch to suit every taste and occasion.</p>
+        </div>
+        <div class="hero-people">
+            <div class="hero-pic">
+                <picture>
+                    <source media="(max-wdth: 767px)"
+                        srcset="./img/hero/people-mobile.webp 1x, ./img/hero/people-mobile@2x.webp 2x" />
+                    <source media="(min-wdth: 1280px)" srcset="./img/hero/people-desktop.webp 1x, ./img/hero/people-desktop@2x.webp
+                2x" />
+                    <source media="(min-wdth: 768px)"
+                        srcset="./img/hero/people-tablet.webp 1x, ./img/hero/people-tablet@2x.webp 2x" />
 
-    <div class="hero-people">
-        <picture>
-            <source media="(min-wdth: 1158px)" srcset="./img/hero/people-desktop.png 1x, ./img/hero/people-desktop@2x.png
-                2x">
-            <source media="(min-wdth: 768px)"
-                srcset="./img/hero/people-tablet.png 1x, ./img/hero/people-tablet@2x.png 2x">
-            <source media="(min-wdth: 375px)"
-                srcset="./img/hero/people-mobile.png 1x, ./img/hero/people-mobile@2x.png 2x">
-        </picture>
-        <img src="./img/hero/people-desktop.png" alt="People">
-        <!-- <button>Scroll down</button> -->
-        <a href="#section1" class="scroll-to scroll-txt">Scroll down</a>
+                </picture>
+                <img src="./img/hero/people-desktop.webp " alt="People" />
+            </div>
+            <div class="scroll-box">
+                <a href="#section1" class="scroll-to scroll-txt">Scroll down</a>
+            </div>
+        </div>
     </div>
-
     <div class="hero-clock">
         <picture>
-            <source media="(min-wdth: 1158px)"
-                srcset="./img/hero/clock-desktop.png 1x, ./img/hero/clock-desktop@2x.png 2x">
-            <source media="(min-wdth: 768px)"
-                srcset="./img/hero/clock-tablet.png 1x, ./img/hero/clock-tablet@2x.png 2x">
-            <source media="(min-wdth: 375px)"
-                srcset="./img/hero/clock-mobile.png 1x, ./img/hero/clock-mobile@2x.png 2x">
-        </picture>
-        <img src="./img/hero/clock-desktop.png" alt="Clock">
-    </div>
+            <source srcset="
+                        ./img/hero/clock-mobile.webp    1x,
+                        ./img/hero/clock-mobile@2x.webp 2x
+                      " media="(max-width:767px)" />
+            <source srcset="
+                        ./img/hero/clock-desktop.webp    1x,
+                        ./img/hero/clock-desktop@2x.webp 2x
+                      " media="(min-width:1280px)" />
+            <source srcset="
+                        ./img/hero/clock-tablet.webp    1x,
+                        ./img/hero/clock-tablet@2x.webp 2x
+                      " media="(min-width:768px)" />
 
+            <img src="./img/hero/clock-desktop.webp" alt="watches" class="hero-watches" />
+        </picture>
+
+    </div>
 </section>
