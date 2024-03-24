@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 .adverstisement-dscr {
-    font-weight: 600;
+    font-weight: 600;    
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
@@ -54,7 +54,8 @@
  } 
  @media screen and ( min-width: 375px) {
     .adverstisement-dscr {
-        height: 167px; 
+        height: 167px;
+        max-width: 279px; 
     }
  }
  @media screen and ( min-width: 768px) {
@@ -69,7 +70,8 @@
         font-size: 48px;
         line-height: 0.91667;
         margin-bottom: 32px; 
-        height: 185px;         
+        height: 185px; 
+        max-width: 576px;        
     }
 }
  
