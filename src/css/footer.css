@@ -1,0 +1,317 @@
+.footer {
+  background: #0c0c0c;
+  border-radius: 30px;
+  padding: 40px 28px 28px 28px;
+  min-width: 280px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logo */
+.footer-logo-social {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo-link {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  font-size: 16px;
+}
+
+/* List of social networks */
+.footer-social-list {
+  display: flex;
+  column-gap: 10px;
+  margin-right: auto;
+}
+
+.footer-social-item {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.footer-social-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icon {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #fbfbfb;
+}
+
+/* Telephone */
+.footer-telephone {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  padding: 14px 20px;
+  width: 152px;
+  margin-bottom: 40px;
+}
+
+.footer-telephone-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: normal;
+  color: #fbfbfb;
+}
+
+/* Slogan of the company */
+
+.footer-slogan {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 92px;
+}
+
+/* List with anchors of the web site */
+.footer-anchors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-anchors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  width: 147px;
+  margin-right: 15px;
+}
+
+.footer-anchors-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+/* Address of the company */
+.footer-address {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  font-style: normal;
+  color: #fbfbfb;
+  width: 83px;
+}
+
+/* Copyright, Terms of service, Privacy policy */
+.footer-additional-information {
+  border-top: 1px solid rgba(251, 251, 251, 0.1);
+  padding-top: 24px;
+}
+
+.footer-copyright {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  text-align: left;
+  opacity: .9;
+}
+
+.footer-terms-list {
+  display: flex;
+  column-gap: 20px;
+  justify-content: flex-start;
+  font-size: 10px;
+}
+
+.footer-terms-link {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  text-align: left;
+}
+
+@media only screen and (min-width: 375px) {
+  .footer {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 40px 40px 28px 40px;
+    width: 704px;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  /* Logo */
+  .footer-logo-social {
+    margin-bottom: unset;
+  }
+
+  .footer-logo-link {
+    font-size: 20px;
+  }
+
+  /* List of social networks */
+  .footer-social-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Telephone */
+  .footer-telephone {
+    text-align: center;
+    width: 160px;
+    height: 48px;
+    margin-left: auto;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .footer-telephone-link {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  /* Slogan of the company */
+
+  .footer-slogan {
+    font-size: 28px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    margin-top: 86px;
+    margin-bottom: 100px;
+    width: 524px;
+  }
+
+  /* List with anchors of the web site */
+  .footer-anchors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .footer-anchors-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 19px;
+    font-size: 14px;
+  }
+
+  .footer-anchors-link {
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  /* Address of the company */
+  .footer-address {
+    font-size: 14px;
+    line-height: 1.28571;
+    width: 162px;
+  }
+
+  /* Copyright, Terms of service, Privacy policy */
+  .footer-additional-information {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+  }
+
+  .footer-copyright {
+    margin-bottom: unset;
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  .footer-terms-link {
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer {
+    width: 1216px;
+  }
+
+  .footer-top {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* List of social networks */
+  .footer-social-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Telephone */
+  .footer-telephone {
+    margin-left: unset;
+    order: 3;
+  }
+
+  /* Slogan of the company */
+
+  .footer-slogan {
+    margin-top: unset;
+    margin-bottom: 126px;
+  }
+
+  /* List with anchors of the web site */
+  .footer-anchors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .footer-anchors-list {
+    column-gap: 40px;
+  }
+}
