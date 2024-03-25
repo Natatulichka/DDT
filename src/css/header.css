@@ -3,8 +3,6 @@
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 .header .container {
-  max-width: 375px;
-  /* звідси прибрати max-width коли виправиш в reset.css  */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,8 +125,6 @@
 
 @media screen and (min-width: 768px) {
   .header .container {
-    max-width: 768px;
-    /* звідси прибрати max-width коли виправиш в reset.css  */
     padding: 26px 32px;
   }
   .header-logo-link {
@@ -167,8 +163,6 @@
 
 @media screen and (min-width: 1280px) {
   .header .container {
-    max-width: 1280px;
-    /* звідси прибрати max-width коли виправиш в reset.css  */
     padding: 26px 64.5px;
   }
   .burger-btn {
