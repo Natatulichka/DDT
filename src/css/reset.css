@@ -9,7 +9,6 @@ p {
   margin: 0;
 }
 
-
 ul {
   margin: 0;
   padding: 0;
@@ -34,28 +33,38 @@ body {
   font-family: 'Gilroy', sans-serif;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   align-content: center;
-} 
-
+}
+.section {
+  padding: 30px 0;
+  margin: 0 auto;
+}
 .container {
-  padding: 0 20px;
+  padding: 0 5.333vw;
   margin: 0 auto;
 }
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 335px;    
+    max-width: 375px;
+    padding: 0 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px; 
-    padding: 0 32px;  
+    max-width: 768px;
+    padding: 0 32px;
   }
-}  
+  .section {
+    padding: 40px 0;
+  }
+}
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px; 
-    padding: 0 65px;  
+    max-width: 1280px;
+    padding: 0 65px;
   }
-}  
+  .section {
+    padding: 50px 0;
+  }
+}
