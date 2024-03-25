@@ -1,3 +1,4 @@
+/* Section name */
 .sale-title {
   font-weight: 600;
   font-size: 32px;
@@ -7,6 +8,7 @@
   text-align: left;
 }
 
+/* Preview of product */
 .sale-preview {
   display: flex;
   flex-direction: column;
@@ -14,6 +16,7 @@
   margin-bottom: 20px;
 }
 
+/* Preview mini images */
 .sale-preview-mini-list {
   display: flex;
   flex-direction: row;
@@ -37,6 +40,7 @@
   object-position: center;
 }
 
+/* Preview main image */
 .sale-preview-main {
   display: flex;
   justify-content: center;
@@ -55,6 +59,7 @@
   height: 285px;
 }
 
+/* Decsription of the product */
 .sale-descr {
   border-radius: 30px;
   background: #3350e9;
@@ -77,6 +82,7 @@
   margin-bottom: 20px;
 }
 
+/* Prices and discounts */
 .sale-descr-prices {
   display: flex;
   align-items: center;
@@ -102,6 +108,7 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
+/* About product */
 .sale-descr-text {
   font-weight: 500;
   font-size: 14px;
@@ -111,6 +118,7 @@
   margin-bottom: 28px;
 }
 
+/* Anchor tags */
 .sale-descr-tags-list {
   display: flex;
   flex-wrap: wrap;
@@ -131,12 +139,14 @@
 }
 
 @media only screen and (min-width: 768px) {
+  /* Section name */
   .sale-title {
     font-size: 48px;
     line-height: 0.91667;
     margin-bottom: 40px;
   }
 
+  /* Preview of product */
   .sale-preview {
     display: flex;
     flex-direction: row;
@@ -144,6 +154,7 @@
     margin-bottom: 40px;
   }
 
+  /* Preview mini images */
   .sale-preview-mini-list {
     display: flex;
     flex-direction: column;
@@ -160,6 +171,7 @@
     height: 100px;
   }
 
+  /* Preview mane image */
   .sale-preview-main {
     border-radius: 50px;
     width: 552px;
@@ -171,6 +183,7 @@
     height: 398px;
   }
 
+  /* Decsription of the product */
   .sale-descr {
     border-radius: 50px;
     padding: 60px;
@@ -183,6 +196,7 @@
     width: 436px;
   }
 
+  /* Prices and discounts */
   .sale-descr-prices {
     margin-bottom: 30px;
   }
@@ -192,12 +206,14 @@
     font-size: 20px;
   }
 
+  /* About product */
   .sale-descr-text {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 40px;
   }
 
+  /* Anchor tags */
   .sale-descr-tags-list {
     display: flex;
     flex-wrap: wrap;
@@ -211,19 +227,23 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  /* Add block for positioning */
   .sale-wrapper {
     display: flex;
     column-gap: 40px;
   }
 
+  /* Preview of product */
   .sale-preview {
     margin-bottom: unset;
   }
 
+  /* Preview of main image */
   .sale-preview-main {
     width: 428px;
   }
 
+  /* Description of product */
   .sale-descr-title {
     width: 389px;
   }
