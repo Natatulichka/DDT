@@ -1,4 +1,10 @@
 .footer {
+  min-width: 320px;
+  padding: 30px 20px 20px 20px;
+  margin: 0 auto;
+}
+
+.page-footer {
   background: #0c0c0c;
   border-radius: 30px;
   margin: 0 auto 20px;
@@ -250,7 +256,7 @@
   }
 
   .footer-anchors-link {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.28571;
   }
 
@@ -283,12 +289,8 @@
 
 @media only screen and (min-width: 1280px) {
   .footer {
-    width: calc(100% - 64px);
-  }
-
-  .footer-wrapper {
-    min-width: 1216px;
-    padding: 40px 40px 28px 40px;
+    width: 1280px;
+    padding-top: 50px;
   }
 
   .footer-top {
