@@ -7,7 +7,14 @@
 .page-footer {
   background: #0c0c0c;
   border-radius: 30px;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+}
+
+.footer-wrapper {
+  min-width: 280px;
   padding: 40px 28px 28px 28px;
+  margin: 0 auto;
 }
 
 .footer-top {
@@ -98,6 +105,7 @@
 .footer-anchors {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 24px;
 }
 
@@ -110,6 +118,7 @@
 }
 
 .footer-anchors-link {
+  display: block;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -162,18 +171,18 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .footer {
-    width: 375px;
+  .footer-wrapper {
+    width: 335px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .footer {
-    padding: 40px 32px 32px 32px;
-    width: 768px;
+    width: calc(100% - 64px);
   }
 
-  .page-footer {
+  .footer-wrapper {
+    min-width: 704px;
     padding: 40px 40px 28px 40px;
   }
 
