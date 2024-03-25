@@ -7,7 +7,7 @@
 .page-footer {
   background: #0c0c0c;
   border-radius: 30px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   width: calc(100% - 40px);
 }
 
@@ -179,6 +179,7 @@
 @media only screen and (min-width: 768px) {
   .footer {
     width: calc(100% - 64px);
+    margin: 0 auto 32px;
   }
 
   .footer-wrapper {
