@@ -130,6 +130,9 @@
 }
 
 .sale-descr-tags-link {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
