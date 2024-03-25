@@ -1,8 +1,7 @@
-/* .container{
-  margin-bottom: 60px;
+ /* .container{
+  margin: 0 auto;
 
-} */
-
+}  */
 .contact_us_title{
   margin-bottom: 24px;
   color: #0C0C0C;
@@ -136,7 +135,7 @@ textarea::placeholder{
 
 @media screen and (min-width: 1280px) {
   .container {
-    margin: 0;
+    margin: 0 auto;
   }
   .contact_us_content {
     display: flex;
