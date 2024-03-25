@@ -92,8 +92,6 @@
 
 .sale-descr-actual-price {
   border-radius: 8px;
-  width: 68px;
-  height: 32px;
   background-color: rgba(251, 251, 251, 0.1);
   font-weight: 600;
   color: #fbfbfb;
@@ -202,7 +200,6 @@
   }
 
   .sale-descr-actual-price {
-    width: 78px;
     font-size: 20px;
   }
 
