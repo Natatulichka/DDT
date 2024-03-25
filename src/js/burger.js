@@ -1,16 +1,11 @@
-// Код не работал :(
-    
-/* $(document).ready(function() {
-    $('burger-btn').click(function (event) {
-        $('header-popup-menu').addClass('is-open');
-    });
-}); */
+// Відкриття та закриття вспливаючого мобільного меню:
 
-
-// Вторая попытка - код не работает :(
-
-/* document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("burger").addEventListener("click", function() {
-        document.querySelector("header-popup-menu").classList.add("is-open")
-    })
-}) */
+let menuBtn = document.querySelector('.burger-btn');
+let menu = document.querySelector('.header-popup-menu');
+menuBtn.addEventListener('click', function(){
+	menu.classList.add('is-open');
+})
+let closeBtn = document.querySelector('.close-btn');
+closeBtn.addEventListener('click', function(){
+	menu.classList.remove('is-open');
+})
