@@ -83,6 +83,12 @@ textarea::placeholder{
   line-height: 1.28;
   padding: 12px 50px;
 }
+.button_send:hover,
+.button_send:focus,
+.button_send:active {
+  background: #1F3CD4;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .contact_us_img{
   width: 100%;
   object-fit: cover;
