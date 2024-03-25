@@ -125,6 +125,7 @@ textarea::placeholder{
     }
     .input{
       height: 52px;
+      padding: 16px 16px;
     }
     .textarea_comment {
       margin-bottom: 32px;
@@ -158,6 +159,7 @@ textarea::placeholder{
   }
     .input {
       height: 52px;
+      padding: 16px 16px;
     }
   .contact_place{
     padding: 50px 60px;
