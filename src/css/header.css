@@ -149,6 +149,7 @@
     padding: 310px 0 50px;
   }
   .popup-menu-wrapper {
+    gap: 32px;
   }
   .popup-menu-list {
     gap: 32px;
