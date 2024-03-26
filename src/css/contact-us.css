@@ -1,5 +1,5 @@
 
-.contact_us_title{
+.contact_us_title {
   margin-bottom: 24px;
   color: #0C0C0C;
     font-size: 32px;
@@ -17,7 +17,7 @@
 }
 .contact_place{
   width: 100%;
-  height: 100%;
+  height: 512px;
   border-radius: 30px;
   background-color: #F3F3F3;
   padding: 48px 28px;
@@ -48,7 +48,7 @@ textarea {
   border-radius: 12px;
   border: 1px solid rgba(12, 12, 12, 0.15);
   margin-bottom: 28px;
-  height: 90px;
+  height: 84px;;
 }
 
 .textarea_comment:hover,
@@ -105,6 +105,7 @@ textarea::placeholder{
     line-height: 0.91;
   }
     .contact_place {
+      height: 556px;
       padding: 50px 122px;
       letter-spacing: -0.06em;
     }
@@ -121,6 +122,7 @@ textarea::placeholder{
     .textarea_comment {
       margin-bottom: 32px;
       width: 100%;
+      height: 90px;
     }
     .input_name {
       padding: 16px 18px;
@@ -143,7 +145,7 @@ textarea::placeholder{
   }
   .contact_place{
     width: 580px;
-    height: 556px;
+    
     
   }
     .input {
