@@ -188,7 +188,7 @@
     flex-wrap: wrap;
     flex-direction: unset;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-start;
   }
 
   /* Logo */
@@ -213,16 +213,16 @@
 
   /* Telephone */
   .footer-telephone {
-    text-align: center;
-    width: 160px;
-    height: 48px;
     margin-left: auto;
-    padding: 15px;
-    font-size: 14px;
+    width: 160px;
   }
 
   .footer-telephone-link {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
     font-size: 14px;
+    height: 48px;
     line-height: 1.28571;
   }
 
