@@ -43,7 +43,7 @@
                    link.addEventListener('click', function (e) {
                         e.preventDefault();
                         const currentTarget = this.getAttribute('href');
-                        refs.mobilemenu.classList.contains('is-open') ? refs.modal.classList.remove('is-open') : null;
+                        refs.mobilemenu.classList.contains("is-open") ? refs.mobilemenu.classList.remove("is-open") : null;
                         smoothScroll(currentTarget, 1000);
                    });
               });

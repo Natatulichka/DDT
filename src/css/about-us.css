@@ -1,0 +1,124 @@
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.text-container {
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    height: 446px;
+}
+
+.about-us-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    padding-bottom: 8px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 20px;
+
+
+}
+
+.about-us-par {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 295px;
+
+}
+
+.button {
+    border-radius: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    background: #3350e9;    
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button:hover,
+.button:focus {
+    background: #1F3CD4;
+}
+
+.view-btn-link {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .about-us-container {
+        gap: 40px;
+        }
+
+    .text-container {       
+        height: 512px;
+
+    }
+
+    .about-us-par {
+        width: 584px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about-us-title {
+        padding-top: 80px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+    }
+
+    .button {
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+    
+    .about-us-container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .text-container {
+        width: 580px;
+        height: 532px;
+        margin-bottom: 0;
+    }
+
+    .about-us-par {
+        width: 460px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}
