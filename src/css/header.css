@@ -27,7 +27,7 @@
 .header-popup-menu {
   width: 100%;
   height: 100%;
-  padding: 240px 0 40px;
+  padding: 196px 0 40px;
   background-color: #0c0c0c;
   background-image: linear-gradient(
       rgba(12, 12, 12, 0.92),
@@ -146,7 +146,7 @@
     height: 40px;
   }
   .header-popup-menu {
-    padding: 310px 0 50px;
+    padding: 196px 0 50px;
   }
   .popup-menu-wrapper {
     gap: 32px;
