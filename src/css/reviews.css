@@ -1,0 +1,111 @@
+
+.reviews-title-name {
+                font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 24px;
+}
+.reviews-list {
+    max-width: 335px;
+    
+}
+.reviews-list-item {
+    border-radius: 30px;
+        padding: 32px 36px;
+        background: #f3f3f3;
+}
+.reviews-content {
+    text-align: center;
+    max-width: 263px;
+}
+.reviews-list-img {
+    display: inline-block;
+    justify-content: center;
+    border-radius: 100%;
+        stroke-width: 2px;
+        stroke: #fbfbfb;
+        margin-bottom: 24px;
+}
+.reviews-list-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #0c0c0c;
+        margin-bottom: 8px;
+}
+.reviews-list-text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+}
+
+.reviews-list-item-part {
+    display: none;
+}
+.reviews-list-item-part-a {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+        .reviews-title-name{
+                font-size: 48px;
+                line-height: 0.92;
+                margin-bottom: 40px;
+        }
+        .reviews-list {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            min-width: 704px;
+        }
+    
+                .reviews-list-item,
+        .reviews-list-item-part {
+            display: flex;
+            border-radius: 30px;
+                padding: 32px 36px;
+            background: #f3f3f3;
+        }
+                .reviews-content {
+                    min-width: 272px;
+                    
+
+                }
+        .reviews-list-name {
+            font-size: 18px;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+             }
+        .reviews-list-text {
+            font-size: 16px;
+            line-height: 1.25;
+        }
+}
+ @media screen and (min-width: 1280px) {
+        .reviews-list {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            min-width: 1150px;
+            width: calc((100% - 32px) / 3);
+        }
+                .reviews-list-item,
+                .reviews-list-item-part,
+                .reviews-list-item-part-a {
+                    display: flex;
+                    border-radius: 30px;
+                    padding: 32px 36px;
+                    background: #f3f3f3;
+                }
+                .reviews-content {
+                    min-width: 298px;
+                }
+                
+        
+ }

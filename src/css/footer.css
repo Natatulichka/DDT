@@ -1,7 +1,7 @@
 .footer {
   background: #0c0c0c;
   border-radius: 30px;
-  margin: 0 auto 20px;
+  margin: 30px auto 20px;
   width: calc(100% - 40px);
 }
 
@@ -57,6 +57,7 @@
 
 .footer-social-icon {
   fill: rgba(251, 251, 251, 0.8);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover .footer-social-icon,
@@ -66,14 +67,16 @@
 
 /* Telephone */
 .footer-telephone {
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 16px;
-  padding: 14px 20px;
   width: 152px;
   margin-bottom: 40px;
 }
 
 .footer-telephone-link {
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  padding: 14px 20px;
+  width: 100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -109,12 +112,12 @@
   gap: 8px 16px;
   width: 147px;
   margin-right: 15px;
+  font-size: 12px;
 }
 
 .footer-anchors-link {
   display: block;
   font-weight: 500;
-  font-size: 12px;
   line-height: 1.33333;
   text-transform: capitalize;
   text-align: center;
@@ -173,7 +176,7 @@
 @media only screen and (min-width: 768px) {
   .footer {
     width: calc(100% - 64px);
-    margin: 0 auto 32px;
+    margin: 40px auto 32px;
   }
 
   .footer-wrapper {
@@ -185,7 +188,7 @@
     flex-wrap: wrap;
     flex-direction: unset;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-start;
   }
 
   /* Logo */
@@ -210,16 +213,16 @@
 
   /* Telephone */
   .footer-telephone {
-    text-align: center;
-    width: 160px;
-    height: 48px;
     margin-left: auto;
-    padding: 15px;
-    font-size: 14px;
+    width: 160px;
   }
 
   .footer-telephone-link {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
     font-size: 14px;
+    height: 48px;
     line-height: 1.28571;
   }
 
@@ -284,6 +287,7 @@
 @media only screen and (min-width: 1280px) {
   .footer {
     width: calc(100% - 64px);
+    margin: 40px auto 32px;
   }
 
   .footer-wrapper {
