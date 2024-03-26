@@ -51,5 +51,3 @@
     }
     scrollToSection();
 })();
-
-import './swiper';
