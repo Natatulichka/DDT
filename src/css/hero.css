@@ -44,6 +44,10 @@
     text-decoration-skip-ink: none;
     color: #0c0c0c;
 }
+.scroll-txt:hover ,
+.scroll-txt:focus {
+    color: #3350e9;
+}
 .scroll-box {
 position: absolute;
 right: 0;
