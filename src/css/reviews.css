@@ -10,6 +10,7 @@
   max-width: 335px;
 }
 .swiper-slide {
+  height: auto;
   border-radius: 30px;
   padding: 32px 36px;
   background: #f3f3f3;
@@ -64,6 +65,7 @@
   .reviews-content {
     width: calc((100% - 16px) / 2);
   }
+
   .reviews-list-name {
     font-size: 18px;
     line-height: 1.1;
