@@ -62,7 +62,7 @@
   }
 
   .reviews-content {
-    width: calc(100% - 16px) / 2;
+    width: calc((100% - 16px) / 2);
   }
   .reviews-list-name {
     font-size: 18px;
